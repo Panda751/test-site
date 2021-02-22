@@ -4,9 +4,7 @@ $(document).ready(function() {
 		autoScrolling:true,
         scrollHorizontally: false,
         verticalCentered: false,
-		navigation: true,
-		parallax: true,
-		parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'}
+		navigation: true
 	});
 
     
