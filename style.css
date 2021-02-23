@@ -11,7 +11,7 @@ img {
 
 }
 
-.preloader {
+#preloader {
     position: absolute;
     background-color: #11ab78;
     z-index: 200;

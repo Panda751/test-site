@@ -20,7 +20,7 @@ function preload () {
 		preloader.style.display = 'none'
 }
 
-setTimeout(preload, 5000);
+setTimeout(preload, 3000);
 
 
       
