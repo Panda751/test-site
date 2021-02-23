@@ -15,6 +15,12 @@ var typed = new Typed('#typed', {
 	typeSpeed: 50
   });
 
-  
+function preload () {
+		let preloader = document.querySelector('.preloader');
+		preloader.style.display = 'none'
+}
+
+setTimeout(preload, 5000);
+
 
       

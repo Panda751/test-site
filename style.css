@@ -11,6 +11,21 @@ img {
 
 }
 
+.preloader {
+    position: absolute;
+    background-color: #11ab78;
+    z-index: 200;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .preloader__gif {
+    width: 400px;
+    height: 300px;
+} */
 
 /* HEADER */
 .header {
