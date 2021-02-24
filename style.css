@@ -13,13 +13,15 @@ img {
 
 .preloader {
     position: absolute;
-    background: #11ab78;
+    /* background: #11ab78; */
     z-index: 2000;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #fff url(img/tumblr_01baa300c59ec7081bc58f7a7e9207a7_0dd5e89f_400.gif) no-repeat center center;
+    background-size: 50%;
 }
 
 
