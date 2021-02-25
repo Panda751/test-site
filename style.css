@@ -1,10 +1,8 @@
+
 img {
     max-width: 100%;
 }
 
-#fullpage {
-    background-color: #f2f3f4;
-}
 
 #mapid {
     height: 180px;
@@ -13,16 +11,19 @@ img {
 
 .preloader {
     position: absolute;
-    /* background: #11ab78; */
+    background: #fff; 
     z-index: 2000;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff url(img/tumblr_01baa300c59ec7081bc58f7a7e9207a7_0dd5e89f_400.gif) no-repeat center center;
-    background-size: 50%;
+   
 }
+.preloader img {
+    width: 400px;
+}
+
 
 
 /* HEADER */
@@ -32,7 +33,7 @@ img {
     /* -webkit-clip-path: polygon(100% 30%, 100% 29%, 100% 34%, 100% 100%, 100% 100%, 100% 100%, 46% 100%, 0 71%, 0 0, 54% 0);
     clip-path: polygon(100% 30%, 100% 29%, 100% 34%, 100% 100%, 100% 100%, 100% 100%, 46% 100%, 0 71%, 0 0, 54% 0); */
     background:
-        linear-gradient(20deg, #f2f3f4 20%, transparent 20%, transparent 80%, #f2f3f4 80%),
+        linear-gradient(20deg, #f7f1e3 20%, transparent 20%, transparent 80%, #f7f1e3 80%),
         linear-gradient(135deg, rgba(30, 19, 12, .7) 0%, rgba(154, 132, 120, .5) 100%),
         url(img/bg_1.jpg);
     background-repeat: no-repeat;
@@ -111,7 +112,7 @@ img {
         height: 60%;
         flex-direction: column;
         justify-content: space-between;
-        font-size: 100px;
+        font-size: 110px;
         letter-spacing: -4px;
 
     }
@@ -124,21 +125,25 @@ img {
         align-self: flex-end;
     }
 
-}
+    .main__panda  {
+        display: none;
+    }
 
+}
 
 
 .main {
     min-height: 100vh;
     width: 100%;
     font-size: 24px;
-    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f2f3f4;
+    background-color: #f7f1e3;
 
 }
+
+
 
 .main__wrap {
     display: grid;
@@ -149,6 +154,15 @@ img {
     grid-template-columns: 1fr 2fr;
     z-index: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .main__panda {
+        display: none;
+    }
+    .main__wrap{
+        grid-template-columns: 1fr ;
+    }
+    }
 
 .main__message {
     display: grid;
@@ -231,6 +245,9 @@ img {
     margin-top: 35px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.22);
 }
+
+
+
 
 
 
