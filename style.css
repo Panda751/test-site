@@ -33,7 +33,7 @@ img {
     /* -webkit-clip-path: polygon(100% 30%, 100% 29%, 100% 34%, 100% 100%, 100% 100%, 100% 100%, 46% 100%, 0 71%, 0 0, 54% 0);
     clip-path: polygon(100% 30%, 100% 29%, 100% 34%, 100% 100%, 100% 100%, 100% 100%, 46% 100%, 0 71%, 0 0, 54% 0); */
     background:
-        linear-gradient(20deg, #f7f1e3 20%, transparent 20%, transparent 80%, #f7f1e3 80%),
+        linear-gradient(20deg, #fff 20%, transparent 20%, transparent 80%, #fff 80%),
         linear-gradient(135deg, rgba(30, 19, 12, .7) 0%, rgba(154, 132, 120, .5) 100%),
         url(img/bg_1.jpg);
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f7f1e3;
+    background-color: #fff;
 
 }
 
@@ -165,7 +165,7 @@ img {
     }
 
 .main__message {
-    display: grid;
+    display: none;
     grid-template-columns: 40px 1fr;
     grid-gap: 5px;
     width: 250px;
