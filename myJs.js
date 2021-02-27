@@ -11,6 +11,12 @@ $(document).ready(function () {
 			
 			if(nextIndex == 2) {
 				$('.main__message').css('display', 'grid')
+				let typed = new Typed('#typed', {
+					stringsElement: '#typed-strings',
+					typeSpeed: 20,
+					showCursor: false
+				})
+				
 			} 
 		}
 	})
@@ -18,10 +24,7 @@ $(document).ready(function () {
 })
 
 
-let typed = new Typed('#typed', {
-	stringsElement: '#typed-strings',
-	typeSpeed: 20
-})
+
 
 
 function preload() {
