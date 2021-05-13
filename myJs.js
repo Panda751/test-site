@@ -13,12 +13,15 @@ $(document).ready(function () {
 				$('.main__message').css('display', 'grid')
 				let typed = new Typed('#typed', {
 					stringsElement: '#typed-strings',
-					typeSpeed: 20,
-					showCursor: false
+					showCursor: false,
+					typeSpeed: 0,
+					fadeOut: true,
 				})
-				
+				 
 			} 
+			
 		}
+		
 	})
 	
 })
@@ -34,12 +37,4 @@ function preload() {
 setTimeout(preload, 3000)
 
 
-// function scrollHandler() {
-// 	let point = document.querySelectorAll('#fp-nav ul li a')
-//     for(point; point < 3; point++) {
-// 		if(point.classList == 'active') {
-// 			alert(active)
-// 		}
-// 	}
-// }
-// scrollHandler()
+

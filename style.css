@@ -1,4 +1,6 @@
-
+#map {
+    height: 500px;
+}
 img {
     max-width: 100%;
 }
@@ -33,7 +35,7 @@ img {
     /* -webkit-clip-path: polygon(100% 30%, 100% 29%, 100% 34%, 100% 100%, 100% 100%, 100% 100%, 46% 100%, 0 71%, 0 0, 54% 0);
     clip-path: polygon(100% 30%, 100% 29%, 100% 34%, 100% 100%, 100% 100%, 100% 100%, 46% 100%, 0 71%, 0 0, 54% 0); */
     background:
-        linear-gradient(20deg, #fff 20%, transparent 20%, transparent 80%, #fff 80%),
+        linear-gradient(20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%),
         linear-gradient(135deg, rgba(30, 19, 12, .7) 0%, rgba(154, 132, 120, .5) 100%),
         url(img/bg_1.jpg);
     background-repeat: no-repeat;
@@ -139,7 +141,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background: linear-gradient(-20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%);
 
 }
 
@@ -234,7 +236,6 @@ img {
 
 .message__text {
     
-    border: 2px solid #949494;
     padding: 10px;
     color: #FCD0CC;
     font-size: 18px;
@@ -248,119 +249,12 @@ img {
 
 
 
-
-
-
-
-.gallery {
-    min-height: 100vh;
-    width: 100%;
-    display: grid;
-    position: relative;
-    grid-template-areas:
-
-        "one one             two two two two        three three"
-        "one one             two two two two        three three"
-        "one one             four   nine nine nine  three three"
-        "one one             four   nine nine nine  three three"
-        "five five five five    seven seven         eight eight"
-        "five five five five    seven seven         eight eight"
-        "five five five five    seven seven         eight eight";
-
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-
-}
-
-.gallery::after {
-    background: linear-gradient(135deg, rgba(30, 19, 12, .7) 0%, rgba(154, 132, 120, 0.2) 100%);
-    display: block;
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.gallery__bg-1 {
-    background-color: rgb(36, 126, 36);
-    background: url(img/bg_3.jpg);
-    background-size: cover;
-    grid-area: one;
-}
-
-.gallery__bg-2 {
-    background-color: rgb(59, 189, 194);
-    background: url(img/bg_1.jpg);
-    background-size: cover;
-    background-position: center;
-    grid-area: two;
-}
-
-.gallery__bg-3 {
-    background-color: rgb(29, 28, 49);
-    background: url(img/bg_6.jpg);
-    background-size: cover;
-    background-position: center;
-    grid-area: three;
-}
-
-.gallery__bg-4 {
-    background-color: rgb(105, 36, 126);
-    background: url(img/bg_8.jpg);
-    background-size: cover;
-    grid-area: four;
-}
-
-.gallery__bg-5 {
-    background-color: rgb(184, 148, 178);
-    background: url(img/bg_5.jpg);
-    background-size: cover;
-    background-position: center;
-    grid-area: five;
-}
-
-.gallery__bg-6 {
-    background-color: rgb(218, 27, 27);
-    background: url(img/bg_7.jpg);
-    background-size: cover;
-    background-position: center;
-    grid-area: six;
-}
-
-.gallery__bg-7 {
-    background-color: rgb(156, 12, 60);
-    background: url(img/bg_9.jpg);
-    background-size: cover;
-    background-position: center;
-    grid-area: seven;
-}
-
-.gallery__bg-8 {
-    background-color: rgb(184, 221, 81);
-    background: url(img/bg_10.jpg);
-    background-size: cover;
-    background-position: center;
-    grid-area: eight;
-}
-
-.gallery__bg-9 {
-    background-color: rgb(190, 162, 2);
-    background: url(img/bg_4.jpg);
-    background-size: cover;
-    background-position: center;
-    grid-area: nine;
-}
-
-
-
-
-
 /* FOOTER */
 
 .footer {
-    background: linear-gradient(135deg, rgba(30, 19, 12, .7) 0%, rgba(154, 132, 120, .5) 100%),
+    background: 
+    linear-gradient(20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%),
+    linear-gradient(135deg, rgba(30, 19, 12, .7) 0%, rgba(154, 132, 120, .5) 100%),
         url(img/bg_2.jpg);
     background-size: cover;
     background-position: center;
