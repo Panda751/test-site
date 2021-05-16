@@ -314,13 +314,16 @@ img {
     bottom: 0;
     background: rgba(0, 0, 0, .1);
 }
+
 figure img {
     max-width: 400px;
 }
 figure figcaption {
+    font-family: Arial, Helvetica, sans-serif;
     align-self: center;
     text-align: center;
     margin-top: 40px;
+    width: 300px;
 }
 
 .location__forrest {
@@ -328,7 +331,7 @@ figure figcaption {
     
 }
 .location__forrest:hover .location__img {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .location__night {
     
@@ -347,7 +350,7 @@ figure figcaption {
 
 .footer {
     background: 
-    linear-gradient(20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%),
+    linear-gradient(-20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%),
     linear-gradient(135deg, rgba(30, 19, 12, .7) 0%, rgba(154, 132, 120, .5) 100%),
         url(img/bg_2.jpg);
     background-size: cover;
