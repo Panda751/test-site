@@ -5,7 +5,7 @@ $(document).ready(function () {
 		scrollHorizontally: false,
 		verticalCentered: false,
 		navigation: true,
-		scrollingSpeed: 400,
+		scrollingSpeed: 800,
 
 		onLeave: function(index, nextIndex, direction) {
 			
@@ -37,4 +37,9 @@ function preload() {
 setTimeout(preload, 3000)
 
 
+let mapBtn = document.querySelector('.location__exit');
+let popUp = document.querySelector('.location__pop-up');
 
+mapBtn.addEventListener('click', function (event) {
+	popUp.style.display = 'none'
+  });
