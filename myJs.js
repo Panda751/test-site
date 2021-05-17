@@ -41,5 +41,5 @@ let mapBtn = document.querySelector('.location__exit');
 let popUp = document.querySelector('.location__pop-up');
 
 mapBtn.addEventListener('click', function (event) {
-	popUp.style.display = 'none'
+	popUp.style.display = 'flex'
   });
