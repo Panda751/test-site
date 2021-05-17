@@ -988,7 +988,7 @@ img {
 .location  {
     background: linear-gradient(20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%);
    display: flex;
-   flex: 1;
+   position: relative;
    flex-direction: row;
    justify-content: space-evenly;
    align-items: center;
@@ -996,7 +996,7 @@ img {
 } 
 
 .location__pop-up {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -1082,7 +1082,7 @@ figure figcaption {
 
 .footer {
     background: 
-    linear-gradient(20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%),
+    linear-gradient(-20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%),
     linear-gradient(135deg, rgba(30, 19, 12, .7) 0%, rgba(154, 132, 120, .5) 100%),
         url(img/bg_2.jpg);
     background-size: cover;
@@ -1092,7 +1092,3 @@ figure figcaption {
 
 
 }
-
->>>>>>> f0179beae94cd0205219613c930fae0e9f9862e9
->>>>>>> 0bd9fc26cec059e23d03c0ab7e1d72f5b98fb898
-/* linear-gradient(135deg, rgba(30, 19, 12, .7) 0%,rgba(154, 132, 120,.5) 100%), */
