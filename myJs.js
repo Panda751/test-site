@@ -58,17 +58,29 @@ function preload() {
 setTimeout(preload, 3000)
 
 
-let btnGoOut = document.querySelector('.location__exit');
-let popUp = document.querySelector('.location__pop-up');
+let btnGoOutForrest = document.querySelector('.location__forrest-pop-up .location__exit');
+let btnGoOutNight = document.querySelector('.location__night-pop-up .location__exit');
+let popUpForrest = document.querySelector('.location__forrest-pop-up');
+let popUpNight = document.querySelector('.location__night-pop-up');
 let goInForrest = document.querySelector('.location__forrest');
+let goInNight = document.querySelector('.location__night');
 
 goInForrest.addEventListener('click', function (event) {
-	popUp.style.display = 'flex';
+	popUpForrest.style.display = 'flex';
+  });
+
+goInNight.addEventListener('click', function (event) {
+	popUpNight.style.display = 'flex';
   });
   
-  btnGoOut.addEventListener('click', function (event) {
-	popUp.style.display = 'none';
+  btnGoOutForrest.addEventListener('click', function (event) {
+	popUpForrest.style.display = 'none';
   });
+  btnGoOutNight.addEventListener('click', function (event) {
+	popUpNight.style.display = 'none';
+  });
+
+
 
 
 

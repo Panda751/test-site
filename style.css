@@ -242,7 +242,7 @@ img {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     line-height: 120%;
-    height: 200px;
+    height: 210px;
     border-radius: 0 20px 20px;
     margin-top: 35px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.22);
@@ -268,7 +268,8 @@ img {
     display: none;
 }
 
-.location__pop-up {
+.location__forrest-pop-up,
+.location__night-pop-up {
     display: none;
     justify-content: center;
     align-items: center;
@@ -326,7 +327,7 @@ figure img {
     max-width: 400px;
 }
 figure figcaption {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     align-self: center;
     text-align: center;
     margin-top: 40px;
