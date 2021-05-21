@@ -369,6 +369,11 @@ figure figcaption {
     figure img {
         max-width: 300px;
     }
+
+    .nightOnMap {
+        background: url(img/night.JPG) no-repeat;
+        background-size: cover;
+    }
     .location__pop-up__map {
         width: 80%;
         height: 65%;
