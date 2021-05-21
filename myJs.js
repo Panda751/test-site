@@ -5,7 +5,7 @@ function addNightBlock() {
 										  <section class="location__night__for-mob section">
 											  <figure class="location__night__mob-figure">
 												  <div class="location__img nightOnMap">
-													  <img data-src="img/night.jpg" alt="img">
+													  <img data-src="img/night.JPG" alt="img">
 												  </div>
 												  <figcaption>
 													  <p>Не місцеві гості зможуть заночувати в мотелі в Макарові</p>
