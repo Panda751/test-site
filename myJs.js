@@ -1,3 +1,23 @@
+function addNightBlock() {
+	if(window.matchMedia('(max-width: 760px)').matches){
+   let elem = document.querySelector('.footer');
+  elem.insertAdjacentHTML("beforebegin", ` 
+										  <section class="location__night__for-mob section">
+											  <figure class="location__night__mob-figure">
+												  <div class="location__img nightOnMap">
+													  <img src="img/night.jpg" alt="img">
+												  </div>
+												  <figcaption>
+													  <p>Не місцеві гості зможуть заночувати в мотелі в Макарові</p>
+													  <h2>Night City</h2>
+												  </figcaption>
+											  </figure>
+										  </section>`);
+		  
+}
+}
+addNightBlock();
+
 $(document).ready(function () {
 	$('#fullpage').fullpage({
 		//options here
@@ -49,22 +69,5 @@ goInForrest.addEventListener('click', function (event) {
 	popUp.style.display = 'none';
   });
 
-function addNightBlock() {
-	  if(window.matchMedia('(max-width: 760px)').matches){
-	 let elem = document.querySelector('.footer');
-	elem.insertAdjacentHTML("beforebegin", ` 
-											<section class="location__night__for-mob section">
-												<figure class="location__night__mob-figure">
-													<div class="location__img nightOnMap">
-														<img src="img/night.jpg" alt="img">
-													</div>
-													<figcaption>
-														<p>Не місцеві гості зможуть заночувати в мотелі в Макарові</p>
-														<h2>Night City</h2>
-													</figcaption>
-												</figure>
-											</section>`);
-}
 
-}
-addNightBlock();
+
