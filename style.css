@@ -377,6 +377,13 @@ figure figcaption {
         height: 200px;
         margin-bottom: 200px;
     }
+
+    .footer {
+        background: 
+        linear-gradient(20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%),
+        linear-gradient(135deg, rgba(30, 19, 12, .7) 0%, rgba(154, 132, 120, .5) 100%),
+            url(img/bg_2.jpg);
+    }
 }
 
 
@@ -404,6 +411,20 @@ align-items: center;
 font-size: 100px;
 font-family: 'Amatic SC', cursive;
 color: #f7f7f7;
+}
+
+@media screen and (max-width: 760px) {
+    .footer {
+        background: 
+    linear-gradient(20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%),
+    linear-gradient(135deg, rgba(30, 19, 12, .7) 0%, rgba(154, 132, 120, .5) 100%),
+        url(img/bg_2.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 50px;
+    flex-direction: column;
+    justify-content:space-evenly;
+    }
 }
 
 .footer__left {
