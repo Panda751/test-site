@@ -421,7 +421,8 @@ color: #f7f7f7;
         url(img/bg_2.jpg);
     background-size: cover;
     background-position: center;
-    font-size: 50px;
+    font-size: 60px;
+    text-align: center;
     flex-direction: column;
     justify-content:space-evenly;
     }
@@ -441,6 +442,11 @@ color: #f7f7f7;
         margin-bottom: 0;
     }
 }
+@media screen and (max-width: 760px) {
+    .footer__left {
+        transform: rotate(22deg);
+    }
+}
 
 
 .footer__right {
@@ -456,4 +462,8 @@ color: #f7f7f7;
         margin-top: 0;
     }
 }
-
+@media screen and (max-width: 760px) {
+    .footer__right {
+        transform: rotate(22deg);
+    }
+}
