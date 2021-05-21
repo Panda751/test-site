@@ -262,10 +262,10 @@ img {
 
 .location__night__for-mob {
     background: linear-gradient(-20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%);
-    display: none;
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    display: none;
 }
 
 .location__pop-up {
@@ -390,14 +390,49 @@ figure figcaption {
 
 .footer {
     background: 
-    linear-gradient(20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%),
+    linear-gradient(-20deg, #C6BAB3 20%, transparent 20%, transparent 80%, #C6BAB3 80%),
     linear-gradient(135deg, rgba(30, 19, 12, .7) 0%, rgba(154, 132, 120, .5) 100%),
         url(img/bg_2.jpg);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content:space-around;
+align-items: center;
+font-size: 100px;
+font-family: 'Amatic SC', cursive;
+color: #f7f7f7;
+}
+
+.footer__left {
+    opacity: 0.3;
+    letter-spacing: 5px;
+    transform: rotate(-22deg);
+    text-transform: uppercase;
+    mix-blend-mode: color-dodge;
+    margin-bottom: 350px;
+}
+
+@media screen and (max-width: 1250px) {
+    .footer__left {
+        margin-bottom: 0;
+    }
+}
 
 
+.footer__right {
+    opacity: 0.3;
+    letter-spacing: 5px;
+    transform: rotate(-22deg);
+    text-transform: uppercase;
+    mix-blend-mode: color-dodge;
+    margin-top: 350px;
+}
+@media screen and (max-width: 1250px) {
+    .footer__right {
+        margin-top: 0;
+    }
 }
 

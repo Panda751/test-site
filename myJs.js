@@ -49,7 +49,8 @@ goInForrest.addEventListener('click', function (event) {
 	popUp.style.display = 'none';
   });
 
-  if(window.matchMedia('(max-width: 760px)').matches){
+function addNightBlock() {
+	  if(window.matchMedia('(max-width: 760px)').matches){
 	 let elem = document.querySelector('.footer');
 	elem.insertAdjacentHTML("beforebegin", ` 
 											<section class="location__night__for-mob section">
@@ -64,3 +65,6 @@ goInForrest.addEventListener('click', function (event) {
 												</figure>
 											</section>`);
 }
+
+}
+addNightBlock();
